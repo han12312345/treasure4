@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻找宝藏之旅</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <h1>寻找宝藏之旅</h1>
+        <div id="player-info">
+            <label for="nickname">请输入玩家昵称：</label>
+            <input type="text" id="nickname" placeholder="请输入昵称">
+            <button id="start-btn">开始寻宝</button>
+        </div>
+        <canvas id="gameCanvas" width="900" height="600"></canvas>
+        <div id="output"></div>
+        <div id="history"></div>
+
+        <!-- 显示图书馆、神庙等描述信息 -->
+        <div id="information"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

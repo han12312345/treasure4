@@ -1,0 +1,21 @@
+#game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+#gameCanvas {
+    background-image: url('寻宝图片.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 600px;
+}
+
+#player-info {
+    margin-bottom: 20px;
+}
